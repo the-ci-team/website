@@ -3,12 +3,12 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Home">
-  <section class="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
+  <section class="bg-white border-b border-primary-200 py-20">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl">
-        <h1 class="text-4xl md:text-5xl font-bold mb-6">Expert CI/CD and Infrastructure Solutions</h1>
-        <p class="text-xl mb-8">Helping teams release more often, reduce CI outages, and move faster with confidence.</p>
-        <a href="/contact" class="bg-white text-primary-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+        <h1 class="text-4xl md:text-5xl font-bold text-primary-900 mb-6">Expert CI/CD and Infrastructure Solutions</h1>
+        <p class="text-xl text-primary-600 mb-8">Helping teams release more often, reduce CI outages, and move faster with confidence.</p>
+        <a href="/contact" class="inline-block bg-accent text-white px-6 py-3 rounded-md font-semibold hover:bg-accent-hover transition-colors">
           Get Started
         </a>
       </div>
@@ -17,52 +17,82 @@ import Layout from '../layouts/Layout.astro';
 
   <section class="py-16">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+      <h2 class="text-3xl font-bold text-primary-900 mb-12">Our Services</h2>
       <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <h3 class="text-xl font-semibold mb-4">CI Process Review</h3>
-          <ul class="space-y-2 text-gray-600">
-            <li>✓ Release more often</li>
-            <li>✓ Reduce CI outages</li>
-            <li>✓ Move faster</li>
-            <li>✓ Reduce costs</li>
+        <div class="bg-white border border-primary-200 rounded-lg p-6">
+          <h3 class="text-xl font-semibold text-primary-900 mb-4">CI Process Review</h3>
+          <ul class="space-y-2 text-primary-600">
+            <li class="flex items-start">
+              <span class="text-accent mr-2">✓</span>
+              <span>Release more often</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-accent mr-2">✓</span>
+              <span>Reduce CI outages</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-accent mr-2">✓</span>
+              <span>Move faster</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-accent mr-2">✓</span>
+              <span>Reduce costs</span>
+            </li>
           </ul>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <h3 class="text-xl font-semibold mb-4">Mac/iOS CI</h3>
-          <ul class="space-y-2 text-gray-600">
-            <li>✓ Apple hardware solutions</li>
-            <li>✓ Virtualisation (Anka/Tart)</li>
-            <li>✓ Infrastructure setup</li>
+        <div class="bg-white border border-primary-200 rounded-lg p-6">
+          <h3 class="text-xl font-semibold text-primary-900 mb-4">Mac/iOS CI</h3>
+          <ul class="space-y-2 text-primary-600">
+            <li class="flex items-start">
+              <span class="text-accent mr-2">✓</span>
+              <span>Apple hardware solutions</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-accent mr-2">✓</span>
+              <span>Virtualisation (Anka/Tart)</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-accent mr-2">✓</span>
+              <span>Infrastructure setup</span>
+            </li>
           </ul>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <h3 class="text-xl font-semibold mb-4">Linux/Android</h3>
-          <ul class="space-y-2 text-gray-600">
-            <li>✓ Gradle Enterprise setup</li>
-            <li>✓ Cloud emulators</li>
-            <li>✓ Performance optimization</li>
+        <div class="bg-white border border-primary-200 rounded-lg p-6">
+          <h3 class="text-xl font-semibold text-primary-900 mb-4">Linux/Android</h3>
+          <ul class="space-y-2 text-primary-600">
+            <li class="flex items-start">
+              <span class="text-accent mr-2">✓</span>
+              <span>Gradle Enterprise setup</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-accent mr-2">✓</span>
+              <span>Cloud emulators</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-accent mr-2">✓</span>
+              <span>Performance optimization</span>
+            </li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="bg-gray-100 py-16">
+  <section class="bg-primary-50 py-16">
     <div class="container mx-auto px-4">
-      <div class="max-w-3xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-6">Why Choose The CI Team?</h2>
-        <p class="text-lg text-gray-600 mb-8">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold text-primary-900 mb-6">Why Choose The CI Team?</h2>
+        <p class="text-lg text-primary-600 mb-8">
           With over 30 years of combined experience in banking and enterprise environments, we understand the unique challenges of large-scale CI/CD systems.
         </p>
         <div class="grid md:grid-cols-2 gap-8">
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold mb-4">Industry Expertise</h3>
-            <p class="text-gray-600">Proven track record in financial services and enterprise environments</p>
+          <div class="bg-white border border-primary-200 rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-primary-900 mb-4">Industry Expertise</h3>
+            <p class="text-primary-600">Proven track record in financial services and enterprise environments</p>
           </div>
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold mb-4">Comprehensive Solutions</h3>
-            <p class="text-gray-600">End-to-end CI/CD and infrastructure services</p>
+          <div class="bg-white border border-primary-200 rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-primary-900 mb-4">Comprehensive Solutions</h3>
+            <p class="text-primary-600">End-to-end CI/CD and infrastructure services</p>
           </div>
         </div>
       </div>

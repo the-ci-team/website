@@ -4,5 +4,6 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   integrations: [tailwind()],
   site: 'https://the-ci-team.com',
-  base: 'the-ci-team'
+  base: '/',
+  trailingSlash: 'never',
 }); 

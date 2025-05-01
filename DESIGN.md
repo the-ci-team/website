@@ -2,6 +2,10 @@
 
 the-ci-team.com
 
+## About
+ - London based
+ - 
+
 ## Services
 
 ### CI Process Review
@@ -12,11 +16,11 @@ the-ci-team.com
  - move faster
  - reduce costs
 
-### Mac/iOS CI and infrastructure
+### Mac and iOS CI and infrastructure
  - for apps that require Apple hardware
  - Virtualisation (Anka/Tart)
 
-### Linux/Android
+### Linux and Android CI and infrastructure
  - Gradle Enterprise setup/integration
  - Cloud emulators
 
